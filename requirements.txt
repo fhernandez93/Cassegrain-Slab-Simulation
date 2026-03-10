@@ -1,0 +1,16 @@
+pipreqs
+setuptools
+tidy3d
+pytz
+numpy<2.0.0
+h5py==3.11.0
+imageio==2.33.1
+matplotlib==3.10.8
+scipy==1.17.1
+trimesh==4.11.3
+xarray==2023.6.0
+dotenv
+stl
+pic
+ipython 
+jupyter
