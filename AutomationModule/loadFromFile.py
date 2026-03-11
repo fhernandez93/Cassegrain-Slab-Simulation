@@ -30,7 +30,7 @@ class loadFromFile:
 
             self.structure_name = Path(file_path).stem
             if save_path=="":
-                store_path =  fr"H:\phd stuff\tidy3d/output/{file_path[file_path.find("data"):]}/Data"
+                store_path =  fr"./output/{file_path[file_path.find("data"):]}/Data"
             else:
                 store_path =  save_path + rf"/{file_path[file_path.find("2D SHU Project")+len("2D SHU Project")+1:]}/Data"
             self.only_download = only_download

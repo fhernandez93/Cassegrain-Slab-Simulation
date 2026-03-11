@@ -773,10 +773,10 @@ class loadAndRunStructure:
             if run:
                 ids = (id_0 if add_ref else "") + '\n' + id
                 incidence_folder = self.direction+"_incidence"
-                file_path = rf"H:\phd stuff\tidy3d\data\{folder_name}\{incidence_folder}\{task_name_def}.txt"
+                file_path = rf"./data/{folder_name}/{incidence_folder}/{task_name_def}.txt"
                 # Check if the folder exists
-                if not os.path.exists( rf"H:\phd stuff\tidy3d\data\{folder_name}\{incidence_folder}"):
-                    os.makedirs(rf"H:\phd stuff\tidy3d\data\{folder_name}\{incidence_folder}")
+                if not os.path.exists( rf"./data/{folder_name}/{incidence_folder}"):
+                    os.makedirs(rf"./data/{folder_name}/{incidence_folder}")
                     print(f"Folder '{folder_name}/{incidence_folder}' created successfully.")
 
                 # Open file in write mode
